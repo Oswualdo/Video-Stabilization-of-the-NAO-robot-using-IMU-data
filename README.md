@@ -42,7 +42,7 @@ Python:
 to execute the stabilizing video, it is necessary to launch the following:
 >$ rosrun image_viewer imageviewer
 
-Finally, to execute the control of the nao for the follow-up of the QR code, the following is launched:
+Finally, to execute the control of the nao for the follow-up of the QR code, the following is launched (the file is inside the python_control folder):
 >$ python operar_nao.py
 
 
