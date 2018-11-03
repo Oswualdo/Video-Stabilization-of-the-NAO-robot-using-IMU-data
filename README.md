@@ -17,12 +17,7 @@ by terminal:
 ```         
 It is also necessary to include the following in the workspace:
 
-naoqi_driver
->http://wiki.ros.org/naoqi_driver
-naoqi_bridge
->http://wiki.ros.org/naoqi_bridge
-nao_description
->http://wiki.ros.org/nao_description
+naoqi_driver http://wiki.ros.org/naoqi_driver ,naoqi_bridge http://wiki.ros.org/naoqi_bridge , nao_description http://wiki.ros.org/nao_description
 
 
 ## Usage
