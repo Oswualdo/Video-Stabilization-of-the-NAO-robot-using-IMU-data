@@ -18,11 +18,11 @@ by terminal:
 It is also necessary to include the following in the workspace:
 
 naoqi_driver
-http://wiki.ros.org/naoqi_driver
+>http://wiki.ros.org/naoqi_driver
 naoqi_bridge
-http://wiki.ros.org/naoqi_bridge
+>http://wiki.ros.org/naoqi_bridge
 nao_description
-http://wiki.ros.org/nao_description
+>http://wiki.ros.org/nao_description
 
 
 ##Usage
@@ -32,17 +32,17 @@ having everything configured, we proceed to compile the codes using the command 
 To start the robot bringup, simply run:
 
 C++:
-$ roslaunch nao_bringup nao_full.launch nao_ip:=<robot_ip> roscore_ip:=<roscore_ip>
+>$ roslaunch nao_bringup nao_full.launch nao_ip:=<robot_ip> roscore_ip:=<roscore_ip>
 
 Alternatively you can make use of the python SDK, which has to be installed and correctly setup in your PYTHONPATH environment variable. For more information on that, please refer to nao.
 
-Python:
+>Python:
 $ roslaunch nao_bringup nao_full_py.launch nao_ip:=<robot_ip> roscore_ip:=<roscore_ip>
 
 to execute the stabilizing video, it is necessary to launch the following:
-$ rosrun image_viewer imageviewer
+>$ rosrun image_viewer imageviewer
 
 Finally, to execute the control of the nao for the follow-up of the QR code, the following is launched:
-$ python operar_nao.py
+>$ python operar_nao.py
 
 
