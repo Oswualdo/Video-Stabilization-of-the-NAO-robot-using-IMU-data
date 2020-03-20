@@ -40,4 +40,14 @@ to execute the stabilizing video, it is necessary to launch the following:
 Finally, to execute the control of the nao for the follow-up of the QR code, the following is launched (the file is inside the python_control folder):
 >$ python operar_nao.py
 
+### Cite
+If you use this project in an academic work, please cite:
 
+@incollection{alquisiris2020video,
+  title={Video Stabilization of the NAO Robot Using IMU Data},
+  author={Alquisiris-Quecha, Oswualdo and Martinez-Carranza, Jose},
+  booktitle={Robot Operating System (ROS)},
+  pages={147--162},
+  year={2020},
+  publisher={Springer}
+}
