@@ -42,7 +42,7 @@ Finally, to execute the control of the nao for the follow-up of the QR code, the
 
 ### Cite
 If you use this project in an academic work, please cite:
-
+'''
 @incollection{alquisiris2020video,
   title={Video Stabilization of the NAO Robot Using IMU Data},
   author={Alquisiris-Quecha, Oswualdo and Martinez-Carranza, Jose},
@@ -51,3 +51,4 @@ If you use this project in an academic work, please cite:
   year={2020},
   publisher={Springer}
 }
+'''
